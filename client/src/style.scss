@@ -1,0 +1,77 @@
+$wheat-color : wheat;
+$dark-orange : rgb(253, 130, 73);
+
+.app{
+
+    .container{
+
+        //Login and Register
+        .auth{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: $wheat-color;
+            height: 100vh;
+
+
+            h1{
+                font-size: 30px;
+                color: white;
+                padding-bottom: 0.75rem;
+                z-index: 100;
+                text-shadow: black 0.5px 0 0px;
+            }
+
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 50px;
+                background-color: white;
+                width: 18rem;
+                height: 20rem;
+                gap: 20px;
+                border-radius: 10px;
+                box-shadow: 60px -27px $dark-orange;
+
+                input{
+                    padding: 10px;
+                    border: none;
+                    border-bottom: 1px solid gray;
+                }
+
+                input:focus {
+                    outline: none;
+                }
+
+                button {
+                    padding: 10px;
+                    border: none;
+                    background-color: $dark-orange;
+                    color: white;
+                    cursor: pointer;
+                    transition: 0.3s ease-out;
+                }
+
+                button:hover{
+                    transition: 0.3s ease-in;
+                    background-color: rgb(187, 95, 53);
+                    cursor: pointer;
+                }
+
+                span{
+                    font-size: 12px;
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 12px;
+                    text-align: center;
+                    color: red;
+                }
+            }
+        }
+
+    }
+}
