@@ -67,14 +67,6 @@ $dark-orange : rgb(253, 130, 73);
                 span{
                     font-size: 12px;
                     text-align: center;
-
-                    Link{
-                        text-decoration: none;
-                    }
-
-                    .randy{
-                        text-decoration: none;
-                    }
                 }
 
                 p{
@@ -84,6 +76,8 @@ $dark-orange : rgb(253, 130, 73);
                 }
             }
         }
+
+        //NAVBAR
 
         .navbar {
             display: flex;
@@ -157,7 +151,7 @@ $dark-orange : rgb(253, 130, 73);
                 margin-bottom: 1rem;
 
                 img {
-                        height: 200px;
+                    height: 100px;
                 }
             }
         }

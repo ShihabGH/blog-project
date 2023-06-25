@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <div className='contents'>
         <img src={Logo} alt='logo'/>
-        <span>Made with passion</span>
+        <span>Copyright ©</span>
       </div>
     </footer>
   )
