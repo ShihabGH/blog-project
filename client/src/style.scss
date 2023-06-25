@@ -131,5 +131,27 @@ $dark-orange : rgb(253, 130, 73);
             }
         }
 
+        // Footer
+        footer{
+            
+            display: flex;
+            justify-content: center;
+
+            .contents{
+                margin-top: 100px;
+                padding: 20px;
+                background-color: $wheat-color;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 12px;
+                width: 1200px;
+
+                img {
+                        height: 200px;
+                    }
+            }
+        }
+
     }
 }

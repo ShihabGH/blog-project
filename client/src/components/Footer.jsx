@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Logo from '../assets/images/Orange.png';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+      <div className='contents'>
+        <img src={Logo} alt='logo'/>
+        <span>Made with passion</span>
+      </div>
+    </footer>
   )
 }
 
