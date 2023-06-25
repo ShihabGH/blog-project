@@ -29,7 +29,7 @@ const Home = () => {
       img: "https://images.pexels.com/photos/7862625/pexels-photo-7862625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
   ];
-
+  
   return (
     <div className='home'>
       <div className='posts'>

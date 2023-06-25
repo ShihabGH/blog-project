@@ -3,11 +3,17 @@ import Logo from '../assets/images/Orange.png';
 import {Link} from 'react-router-dom';
 
 const Navbar = () => {
+
+  const linkStyle = {
+  textDecoration: "none",
+  color: '#333',
+  };
+
   return (
     <div className='navbar'>
       <div className='container'>
         <div className='logo'>
-          <img src={Logo} alt='company logo'/>
+          <Link to="/"><img src={Logo} alt='company logo'/></Link>
         </div>
         <div className='links'>
           <Link className='link' to="/?cat=art"><h6>ART</h6></Link>
@@ -19,7 +25,7 @@ const Navbar = () => {
           <span>Mahi</span>
           <span>Logout</span>
           <span className='write'>
-            <Link to="/write">Write</Link>
+            <Link to="/write" style={linkStyle}>Write</Link>
           </span>
         </div>
       </div>
