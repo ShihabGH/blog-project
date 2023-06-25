@@ -2,6 +2,7 @@ import React from 'react';
 import Edit from '../assets/images/edit.png';
 import Delete from '../assets/images/delete.png';
 import {Link} from "react-router-dom";
+import Menu from '../components/Menu';
 
 const Single = () => {
   return (
@@ -25,7 +26,7 @@ const Single = () => {
           A Revolutionary Concept: Gundam, created by Yoshiyuki Tomino, introduced a groundbreaking concept to the mecha genre. Instead of focusing solely on action-packed battles, it delved into intricate political narratives, social commentary, and moral dilemmas. The series explored the human cost of war, the consequences of unchecked technology, and the complexities of personal identity within a futuristic setting. This depth of storytelling and mature themes set Gundam apart from its contemporaries, captivating audiences worldwide. <br/><br/>
           The Gundam Universe: The Gundam franchise encompasses a vast universe of series, movies, manga, and merchandise. The original Mobile Suit Gundam served as a launching pad, giving birth to multiple timelines and spin-offs, each with its unique storyline, characters, and mecha designs. Notable entries include Gundam Wing, Gundam Seed, Gundam 00, and the recent Iron-Blooded Orphans. With each iteration, Gundam continues to reinvent itself while staying true to its core themes.</p>
         </div>
-        <div className='menu'>m</div>
+        <Menu/>
       </div>
     </div>
   )
